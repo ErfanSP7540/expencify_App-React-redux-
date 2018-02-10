@@ -1,0 +1,8 @@
+{
+    "snapshotSerializers":[
+        "enzyme-to-json/serializer"
+    ],
+    "moduleNameMapper": {
+        "^.*\\.css$": "./src/shared/test/SCSSStub.js"
+    }
+}
