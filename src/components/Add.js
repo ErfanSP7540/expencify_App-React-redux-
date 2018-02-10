@@ -24,7 +24,7 @@ export class Add extends  React.Component{
 
 const mapDispatchToProps=(dispatch)=>
 {
-    return ({ submit: (input)=>dispatch(expensesAdd(input)) })
+    return ({ submit: (input )=>dispatch(expensesAdd(input)) })
 }
 
 export default connect(undefined, mapDispatchToProps)(Add);
