@@ -18,7 +18,8 @@ store.dispatch(expensesAdd({ description: '0 bill', amount: 200, createAt: 15170
 store.dispatch(expensesAdd({ description: '1 bill', amount: 200, createAt: 1518430600000}))   
 store.dispatch(expensesAdd({ description: '2 bill', amount: 300, createAt: 1518930600000}))   
 store.dispatch(expensesAdd({ description: '3 bill', amount: 400, createAt: 1518130600000}))   
-store.dispatch(expensesAdd({ description: '4 bill', amount: 500, createAt: 1519330600000}) )   
+store.dispatch(expensesAdd({ description: '4 bill', amount: 500, createAt: 1519330600000 }))   
+store.dispatch(expensesAdd({ description: '4 bill', amount: 600, createAt: 1519530600000}) )   
 store.dispatch(setTextFilter('bill'))
 
 setTimeout(()=>{store.dispatch(setTextFilter('water'))},3000)
