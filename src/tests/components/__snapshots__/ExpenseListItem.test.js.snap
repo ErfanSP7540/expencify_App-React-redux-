@@ -36,7 +36,7 @@ exports[`Item display Test 1`] = `
     (description  : 
     gas Bill
     ) (amount       : 
-    200
+    $200.00
     ) ( note         : 
     this is a Note(1)
     ) (ceateAt      : 
