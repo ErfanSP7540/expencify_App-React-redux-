@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`inial test 1`] = `
+<h2>
+   Viewing 
+  7
+   expenses totalling 
+  $2,420.00
+</h2>
+`;
+
+exports[`summery expenses testing  1`] = `
+<h2>
+   Viewing 
+  0
+   expenses totalling 
+  $0.00
+</h2>
+`;

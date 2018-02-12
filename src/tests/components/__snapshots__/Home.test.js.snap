@@ -4,6 +4,7 @@ exports[`HOME PAGE TESTING SnapShot 1`] = `
 <div>
   HOme Page
   <Connect(ExpenseslistFilter) />
+  <Connect(ExpensesSummery) />
   <Connect(ExpenseList) />
 </div>
 `;
